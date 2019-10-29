@@ -1,7 +1,34 @@
+.image{
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+.header{
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+
+.links{
+	position: absolute;
+	top: 100px;
+	left: 70px;
+}
+
 body{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Andale Mono, Courier New, Helvetica, Arial, sans-serif;
+	color: white;
 }
 
 h1{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Andale Mono, Courier New, sans-serif;
+	color: white;
+}
+
+a:link{
+	color: OrangeRed;
+}
+
+a:visited{
+	color: OrangeRed;
 }
