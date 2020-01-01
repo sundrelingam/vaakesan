@@ -12292,7 +12292,7 @@ $\boldsymbol{\beta}_{m}=\boldsymbol{\beta}_{m-1}-\frac{\alpha}{n}\textbf{X}^T(\t
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The above figure has been set up to demonstrate that the "probability function" for $versicolor$, $p_2(\textbf{X})$ (the orange dashed lined) is never larger than either of the other two class probability functions $p_1(\textbf{X})$ or $p_3(\textbf{X})$, even when the class is $versicolor$.</p>
-<p>This is because of the setup of the response variable -the indicator variable that is $1$ when the species is $versicolor$ and $0$ otherwise. As can be seen from the point above, the OLS solution is a nearly horizontal line. In comparison to the "probability functions" for the other two classes below:</p>
+<p>This is because of the setup of the response variable -the indicator variable that is $1$ when the species is $versicolor$ and $0$ otherwise. As can be seen from the points above, the OLS solution is a nearly horizontal line. In comparison to the "probability functions" for the other two classes below:</p>
 
 </div>
 </div>
@@ -12376,6 +12376,7 @@ $\boldsymbol{\beta}_{m}=\boldsymbol{\beta}_{m-1}-\frac{\alpha}{n}\textbf{X}^T(\t
 <span class="n">X</span> <span class="o">=</span> <span class="n">iris</span><span class="p">[[</span><span class="s1">&#39;petal length (cm)&#39;</span><span class="p">,</span> <span class="s1">&#39;sepal length (cm)&#39;</span><span class="p">]]</span>
 <span class="n">X</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;intercept&#39;</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 
+<span class="c1">#alternative solution by including higher power terms</span>
 <span class="c1">#import warnings</span>
 <span class="c1">#warnings.filterwarnings(&#39;ignore&#39;)</span>
 <span class="c1">#X[&#39;petal length ** 2&#39;] = iris[&#39;petal length (cm)&#39;]**2</span>
@@ -12424,7 +12425,7 @@ $\boldsymbol{\beta}_{m}=\boldsymbol{\beta}_{m-1}-\frac{\alpha}{n}\textbf{X}^T(\t
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[150]:</div>
+<div class="prompt input_prompt">In&nbsp;[155]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">iris</span><span class="p">[[</span><span class="s2">&quot;sepal length (cm)&quot;</span><span class="p">]],</span> <span class="n">isVersicolor</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s1">&#39;orange&#39;</span><span class="p">)</span>
@@ -12445,13 +12446,13 @@ $\boldsymbol{\beta}_{m}=\boldsymbol{\beta}_{m-1}-\frac{\alpha}{n}\textbf{X}^T(\t
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[150]:</div>
+<div class="prompt output_prompt">Out[155]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>[&lt;matplotlib.lines.Line2D at 0x238c7a869e8&gt;]</pre>
+<pre>[&lt;matplotlib.lines.Line2D at 0x238c8c0d978&gt;]</pre>
 </div>
 
 </div>
