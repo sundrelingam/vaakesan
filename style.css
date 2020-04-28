@@ -12,7 +12,8 @@
 
 body{
 	font-family: Courier, Helvetica, Arial, sans-serif;
-	color: white;
+	color: OrangeRed;
+	margin-left:5em;
 }
 
 a:link{
