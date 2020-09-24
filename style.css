@@ -22,9 +22,9 @@ a:visited{
 
 .link:hover{
   color: white;
-  background-color: orangered ;
+  background-color: purple ;
 }
 
 .fab:hover{
-	color: black
+	color: purple
 }
