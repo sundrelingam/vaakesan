@@ -20,7 +20,11 @@ a:visited{
 	color: OrangeRed;
 }
 
-a:hover {
+.link:hover{
   color: white;
   background-color: orangered ;
+}
+
+.fab:hover{
+	color: black
 }
