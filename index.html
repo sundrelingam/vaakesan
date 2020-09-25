@@ -3,30 +3,94 @@
   <link rel="stylesheet" href="style.css"/>
   <meta name="viewport" content ="width=device-width,initial-scale=1,user-scalable=yes" />
   <link rel="icon" type="image/png" href="img/favicon.png"/>
-<script src="https://kit.fontawesome.com/8879097b5a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/8879097b5a.js" crossorigin="anonymous"></script>
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  </head>
+</head>
 
 <br></br>
-  <body>
-<h1 class="animate__animated animate__fadeInRight" class="header">
-  <a class="link" href="https://ca.linkedin.com/in/vaakesansundrelingam" style="text-decoration:none">Vaakesan Sundrelingam</a> </br>
+  
+<body>
+	<!-- Github and LinkedIn icons -->
+	<h1 class="animate__animated animate__fadeInRight header">
+		Vaakesan Sundrelingam
+		</br>
     </h1>
 	<div class="animate__animated animate__zoomIn" >
-  <a href="https://ca.linkedin.com/in/vaakesansundrelingam"><i class="fab fa-linkedin fa-2x"></i></a>
-  <a href="https://github.com/sundrelingam?tab=repositories"><i class="fab fa-github-square fa-2x"></i></a>
-</div>
-  <br></br>
- <div class="animate__animated animate__fadeInLeft" class="links">
-  <a class="link" href="CS631_Final_Project_Report.pdf" style="text-decoration:none">COVID-19 Article Clustering and Keyword Search Tool</a>
-  <a class="link" href="https://youtu.be/wn1iYyulVoQ" style="text-decoration:none">[DEMO]</a></br>
-  <a class="link" href="nba-shot-logs.pdf" style="text-decoration:none">NBA Shot Logs: Makes and Misses</a> </br>
-  <a class="link" href="regression-for-classification.html" style="text-decoration:none">Regression for Classification (Class Masking)</a> </br>
-  <a class="link" href="linear_decision_boundaries.html" style="text-decoration:none">Linear Decision Boundaries</a> </br>
-  <a class="link" href="https://www.kaggle.com/vaakesan/artificial-neural-network-for-gender-recognition" style="text-decoration:none">Artificial Neural Network for Gender Recognition by Voice</a> </br>
-<div>
+		<a href="https://ca.linkedin.com/in/vaakesansundrelingam"><i class="fab fa-linkedin fa-2x"></i></a>
+		<a href="https://github.com/sundrelingam?tab=repositories"><i class="fab fa-github-square fa-2x"></i></a>
+	</div>
+	
+	<br></br>
+  
+	<!-- accordion content -->
+	<div class="animate__animated animate__fadeInLeft">
+ 
+		<!-- COVID-19 -->
+		<div class = "collapsible">
+			<span class = "menu-item">COVID-19 Article Clustering and Keyword Search Tool</span>
+			<i class="fas fa-caret-down"></i>
+		</div>
+			<div class="content">
+				A fast, parallelized Spark clustering and search tool for a dataset of over 36,000 scholarly articles.
+				</br></br>
+				<a class="link" href="CS631_Final_Project_Report.pdf"><i class="fas fa-file-pdf fa-2x"></i></a>
+				<a class="link" href="https://youtu.be/wn1iYyulVoQ"><i class="fab fa-youtube fa-2x"></i></a>
+				</br></br>
+			</div>
+		
+		<!-- NBA -->
+		<div class = "collapsible">
+			<span class = "menu-item">NBA Shot Logs: Makes and Misses</span>
+			<i class="fas fa-caret-down"></i>
+		</div>
+			<div class="content">
+				Compared 16 classifiers on the ability to predict shot accuracy based on a small set of in-game variables.
+				</br></br>
+				<a class="link" href="nba-shot-logs.pdf"><i class="fas fa-file-pdf fa-2x"></i></a>
+				</br></br>
+			</div>
+		
+		<!-- ESL -->
+		<div class = "collapsible">
+			<span class = "menu-item">Regression for Classification (Class Masking)</span>
+			<i class="fas fa-caret-down"></i>
+		</div>
+			<div class="content">
+				Exploring the class masking phenomenon when the number of classes is larger than the number of regression parameters.
+				</br></br>
+				<a class="link" href="regression-for-classification.html"><i class="fab fa-python fa-2x"></i></a>
+				</br></br>
+			</div>
+  
+		<!-- LDA -->
+		<div class = "collapsible">
+			<span class = "menu-item">Linear Decision Boundaries</span>
+			<i class="fas fa-caret-down"></i>
+		</div>
+			<div class="content">
+				An investigation and visualization of the behaviour of linear decision boundaries between multiple classifiers.
+				</br></br>
+				<a class="link" href="linear_decision_boundaries.html"><i class="fab fa-r-project fa-2x"></i></a>
+				</br></br>
+			</div>
+  
+		<!-- ANN -->
+        <div class = "collapsible">
+			<span class = "menu-item">Artificial Neural Network for Gender Recognition by Voice</span>
+			<i class="fas fa-caret-down"></i>
+		</div>
+			<div class="content">
+				Given a voice recording, classify whether the speaker was a male or a female with a 98.3% test set accuracy using a simple artificial neural network built with Keras.
+				</br></br>
+				<a class="link" href="https://www.kaggle.com/vaakesan/artificial-neural-network-for-gender-recognition"><i class="fab fa-kaggle fa-2x"></i></i></a>
+				</br></br>
+			</div>
+	</div>
 
 </body>
+
+<script type="text/javascript" src="script.js"></script>
+
