@@ -16,12 +16,12 @@
 	text-align: center;
 	color: OrangeRed;
 	cursor: pointer;
-	transition: letter-spacing 2s
+	transition: letter-spacing 0.65s
 }
 
 .header:hover{
 	color: purple;
-	letter-spacing: 0.15em
+	letter-spacing: 0.035em
 }
 
 body{
