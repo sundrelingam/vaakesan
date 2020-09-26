@@ -15,7 +15,13 @@
 .header{
 	text-align: center;
 	color: OrangeRed;
-	cursor: pointer
+	cursor: pointer;
+	transition: letter-spacing 2s
+}
+
+.header:hover{
+	color: purple;
+	letter-spacing: 0.15em
 }
 
 body{
@@ -32,6 +38,6 @@ body{
   background-color: purple ;
 }
 
-.fab:hover, .fas:hover, .header:hover{
+.fab:hover, .fas:hover{
 	color: purple
 }
